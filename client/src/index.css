@@ -1,12 +1,32 @@
 @import 'tailwindcss';
 /* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); */
 
-body{
- @apply bg-gray-50 text-gray-900;
-}
 .inter-body {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
+
+body{
+ background-color: #F8F9FA;
+ color: #333333;
+}
+
+button, a{
+ color: #00BFA6;
+}
+
+h1, h2, h3, h4{
+  color: #1B263B;
+}
+
+/* Background: #F8F9FA (keep it clean and modern).
+
+Headings/Primary Sections: #1B263B (Navy).
+
+Buttons/CTAs/Portfolio Highlights: #00BFA6 (Teal).
+
+Body Text: #333333 (dark gray, not pure black for softer reading).
+
+Hover/Active States (links, buttons): #3A86FF. */
