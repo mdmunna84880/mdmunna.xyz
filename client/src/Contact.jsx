@@ -1,13 +1,3 @@
-
-// emailjs.sendForm(
-//       'service_vpat5gq',
-//       'template_aun6vpg',
-//       form.current,
-//       'zaoz-y1qnPDqX6V8x'
-//     )
-
-// src/components/Contact.jsx
-
 import { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { motion, AnimatePresence } from 'framer-motion';
