@@ -27,15 +27,15 @@ function App() {
       "@type": "CollegeOrUniversity",
       "name": "Gandhi Engineering College" // [cite: 32, 78, 162]
     },
-    "knowsAbout": ["Java", "React.js", "Node.js", "Express.js", "SQL", "MongoDB", "Full Stack Development", "Backend Development"], // [cite: 13, 124]
+    "knowsAbout": ["Java", "Next.js", "React.js", "Node.js", "Express.js", "SQL", "MongoDB", "Full Stack Development", "Backend Development"], // [cite: 13, 124]
     "sameAs": [
       "https://www.linkedin.com/in/mdmunna84880", // [cite: 6]
       "https://github.com/mdmunna84880" // [cite: 8]
     ]
   };
 
-  const pageTitle = "Md Munna - Engineer | Software Engineer | Full Stack Developer";
-  const pageDescription = "Md Munna's software engineering portfolio. I build scalable backend systems and responsive frontends using Node.js, and React.js.";
+  const pageTitle = "Md Munna - Engineer";
+  const pageDescription = "Md Munna's engineering portfolio. I build scalable backend systems and responsive frontends using Node.js, Next.js, and React.js.";
   const pageUrl = "https://mdmunna.xyz/";
   const imageUrl = `${pageUrl}preview-image.png`; // An image for social sharing
   
