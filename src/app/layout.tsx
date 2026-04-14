@@ -27,6 +27,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/',
   },
+  icons: {
+    icon: [],
+  },
   openGraph: {
     title: `${siteMetadata.name} | Portfolio`,
     description: siteMetadata.description,

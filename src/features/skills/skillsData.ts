@@ -51,12 +51,12 @@ export const skillsData: SkillCategory[] = [
     skills: [
       { 
         name: 'Full Stack Web Development Program', 
-        icon: 'https://img.icons8.com/fluency/48/certificate.png',
+        icon: 'FiAward',
         details: ["AlmaBetter Edutech Pvt. Ltd.", "17-Mar-2026", "Certificate"]
       },
       { 
         name: 'Full Stack Web Development', 
-        icon: 'https://img.icons8.com/fluency/48/certificate.png',
+        icon: 'FiAward',
         details: ["Apna college", "Dec-2025", "Certificate"]
       },
     ]
@@ -66,12 +66,12 @@ export const skillsData: SkillCategory[] = [
     skills: [
       { 
         name: 'English', 
-        icon: 'FiGlobe',
+        icon: 'https://img.icons8.com/fluency/48/usa.png',
         details: ["Proficient"]
       },
       { 
         name: 'Hindi', 
-        icon: 'FiMessageCircle',
+        icon: 'https://img.icons8.com/fluency/48/india.png',
         details: ["Native Speaker"]
       },
     ]
