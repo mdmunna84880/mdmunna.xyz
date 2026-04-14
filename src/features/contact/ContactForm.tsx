@@ -85,6 +85,7 @@ export const ContactForm = () => {
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.8, delay: 0.6 }}
+      suppressHydrationWarning
       className="bg-white p-8 rounded-lg shadow-lg relative"
     >
       <form onSubmit={handleSubmit} className="space-y-8">
@@ -133,6 +134,7 @@ export const ContactForm = () => {
             whileTap={{ scale: isSubmitting ? 1 : 0.95 }}
             type="submit"
             disabled={isSubmitting}
+            suppressHydrationWarning
             className={`inline-flex justify-center py-3 px-12 border border-transparent shadow-sm text-base font-medium rounded-md text-white transition-colors duration-300 ${
               isSubmitting ? 'bg-gray-400 cursor-not-allowed' : 'bg-indigo-500 hover:bg-indigo-600'
             }`}
