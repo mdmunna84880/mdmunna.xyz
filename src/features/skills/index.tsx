@@ -4,9 +4,10 @@ import { Heading } from '../../components/ui/Heading';
 import { AnimatedViewportSection } from '../../components/ui/AnimatedViewportSection';
 import { skillsData } from './skillsData';
 import { FiAward } from 'react-icons/fi';
+import type { IconType } from 'react-icons';
 
 // Map icon names to react-icons components
-const iconMap: { [key: string]: React.ComponentType<any> } = {
+const iconMap: Record<string, IconType> = {
   FiAward,
 };
 
@@ -30,13 +31,12 @@ const Skills = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {categoryItem.skills.map((skill) => {
                 const IconComponent = iconMap[skill.icon];
-                const isReactIcon = IconComponent !== undefined;
                 const hasIcon = skill.icon && skill.icon.length > 0;
 
                 return (
                   <div key={skill.name} className="bg-gray-50 p-6 rounded-lg shadow-md transition-transform duration-300 hover:scale-105 hover:shadow-xl">
                     <div className="flex items-center mb-4">
-                      {hasIcon && isReactIcon ? (
+                      {hasIcon && IconComponent ? (
                         <IconComponent className="h-10 w-10 mr-4 text-indigo-600 flex-shrink-0" />
                       ) : hasIcon ? (
                         <Image src={skill.icon} alt={`${skill.name} icon`} width={40} height={40} className="h-10 w-10 mr-4"/>
