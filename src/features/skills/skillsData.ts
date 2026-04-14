@@ -66,12 +66,12 @@ export const skillsData: SkillCategory[] = [
     skills: [
       { 
         name: 'English', 
-        icon: 'FiGlobe',
+        icon: '',
         details: ["Proficient"]
       },
       { 
         name: 'Hindi', 
-        icon: 'FiBook',
+        icon: '',
         details: ["Native Speaker"]
       },
     ]
