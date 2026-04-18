@@ -83,7 +83,7 @@ const ExperienceEducation = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-16">
         {/* Experience Column */}
         <div>
-          <h3 className="text-2xl font-bold text-center text-indigo-900 mb-10">Experience</h3>
+          <h3 className="text-2xl font-bold text-center text-indigo-900 mb-10">Training Experience</h3>
           <div className="relative border-l-2 border-gray-300">
             {experienceData.map((exp, index) => (
               <TimelineItem 

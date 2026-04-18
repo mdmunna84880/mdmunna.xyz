@@ -2,10 +2,12 @@ import { HeroData } from '../../types';
 
 export const heroData: HeroData = {
   typewriterWords: [
-    'Full Stack Engineer', 
-    'AI Solutions Developer', 
-    'React & Node.js Expert', 
-    'Workflow Automation'
+    'Full Stack Developer (MERN)',
+    'React & Node.js Developer',
+    'Backend Developer',
+    'API-Driven Applications'
   ],
-  description: "Full Stack Developer with hands-on experience in building production-ready web applications using React, Node.js, and MongoDB. Specialized in AI integration, workflow automation, and designing scalable, high-performance systems.",
+
+  description:
+    "Full Stack Developer working with React.js, Node.js, and MongoDB. Experience building end-to-end web applications with REST APIs, state management, and database integration. Focused on writing clean, maintainable code and developing practical application workflows."
 };
